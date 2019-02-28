@@ -336,6 +336,7 @@ workflows:
         filters:
           branches:
             only: develop
+            only: more-tests
     - deploy-develop:
         context: org-global
         requires:
