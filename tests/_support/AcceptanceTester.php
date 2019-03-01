@@ -93,5 +93,4 @@ class AcceptanceTester extends \Codeception\Actor
 		$I = $this;
 		$I->dontHaveCommentInDatabase(['comment_author_email' => $email]);
 	}
-
 }

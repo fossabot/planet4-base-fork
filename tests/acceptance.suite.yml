@@ -12,6 +12,7 @@ modules:
         - WPDb
         - WPWebDriver
         - WPCLI
+        - WPFilesystem
         - \Helper\Acceptance
     config:
         WPDb:
@@ -36,6 +37,8 @@ modules:
             adminPassword: '%TEST_SITE_ADMIN_PASSWORD%'
             adminPath: '%TEST_SITE_WP_ADMIN_PATH%'
             clear_cookies: true
+        WPFilesystem:
+            wpRootFolder: "/app/source/public"
         WPCLI:
           path: /app/source/public
           throw: true
