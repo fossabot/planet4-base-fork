@@ -1,6 +1,7 @@
 # Greenpeace Planet 4
 
  [![CircleCI](https://circleci.com/gh/greenpeace/planet4-base-fork/tree/develop.svg?style=shield)](https://circleci.com/gh/greenpeace/planet4-base-fork/tree/develop)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fplanet4-base-fork.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fplanet4-base-fork?ref=badge_shield)
 
 Testing.
 
@@ -184,3 +185,6 @@ cat service-account-key.json | base64 -w 0 | xargs
 ```
 
 Wordpress keys and salts can be generated here: [https://api.wordpress.org/secret-key/1.1/salt](https://api.wordpress.org/secret-key/1.1/salt)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgreenpeace%2Fplanet4-base-fork.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgreenpeace%2Fplanet4-base-fork?ref=badge_large)
